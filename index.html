@@ -226,7 +226,7 @@ footer{font-size:11px}
 <div class="bookbox">
 <a class="btn" href="https://calendly.com/computatio" id="calLink" target="_blank" rel="noopener">Choose a time</a>
 <p class="note">Prefer to write first? Use the form and we reply within one business day.</p>
-<form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<form id="contactForm" action="https://formspree.io/f/myekaldp" method="POST">
 <input type="hidden" name="_subject" value="New website inquiry - Computatio">
 <label class="hp" aria-hidden="true">Leave this empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
 <label>Name<input name="name" autocomplete="name" required></label>
@@ -242,7 +242,6 @@ footer{font-size:11px}
  var f=document.getElementById('contactForm'),m=document.getElementById('formmsg');
  f.addEventListener('submit',function(e){
   e.preventDefault();
-  if(f.action.indexOf('YOUR_FORM_ID')>-1){m.textContent='This form is not connected yet. Please use "Choose a time" above to book.';return;}
   var b=f.querySelector('button');b.disabled=true;b.textContent='Sending...';m.textContent='';
   fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}})
   .then(function(r){
