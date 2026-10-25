@@ -50,6 +50,7 @@ table.cmp th{background:var(--soft)}
 footer a{color:#ccc}
 .flinks{margin-top:10px}
 .flinks a{margin-right:14px}
+.kitwrap{max-width:720px;margin:0 auto;min-height:420px}
 @media(max-width:820px){.split{grid-template-columns:1fr}.buybox{position:static}}
 @media(max-width:700px){.page-hero{padding:28px 0 40px}.page-hero h1{font-size:28px}.page-hero p{font-size:16px}.page-hero .btn{display:block;text-align:center;margin:0 0 12px}}
 """
@@ -58,7 +59,7 @@ NAV = """<nav><a class="logo" href="/" style="text-decoration:none;margin:0"><im
 
 FOOTER = """<footer>
 <div class="wrap">Computatio &middot; Bookkeeping. Tax. Advisory. &middot; Serving self-employed owners across the United States from San Diego, California. &middot; Tax returns are prepared with AI assistance and reviewed and signed off by a person. This site is not legal or tax advice.
-<div class="flinks"><a href="/monthly-bookkeeping/">Monthly Books</a><a href="/tax-returns/">Tax returns</a><a href="/books-cleanup/">Books cleanup</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="https://computatios-newsletter.beehiiv.com/?utm_source=computatio&amp;utm_medium=referral&amp;utm_campaign=footer">Free guide: 47 write-offs</a></div>
+<div class="flinks"><a href="/monthly-bookkeeping/">Monthly Books</a><a href="/tax-returns/">Tax returns</a><a href="/books-cleanup/">Books cleanup</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/free-guide/?utm_source=computatio&amp;utm_medium=referral&amp;utm_campaign=footer">Free guide: 47 write-offs</a></div>
 </div>
 </footer>
 <script>window.goatcounter={path:function(p){return location.host+p}}</script>
@@ -80,6 +81,7 @@ def page(p):
                    "areaServed": {"@type": "Country", "name": "United States"},
                    "provider": {"@type": "ProfessionalService", "name": "Computatio", "url": SITE + "/"},
                    "offers": p["service"]["offers"]})
+    og_img = f'<meta property="og:image" content="{SITE}{p["og_image"]}">' if p.get("og_image") else ""
     ldj = "\n".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld)
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -95,7 +97,8 @@ def page(p):
 <meta property="og:title" content="{esc(p['title'])}">
 <meta property="og:description" content="{esc(p['desc'])}">
 <meta property="og:url" content="{url}">
-<meta name="twitter:card" content="summary">
+{og_img}
+<meta name="twitter:card" content="{"summary_large_image" if p.get("og_image") else "summary"}">
 <link rel="icon" href="/assets/logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

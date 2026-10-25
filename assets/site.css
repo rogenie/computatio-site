@@ -112,5 +112,6 @@ table.cmp th{background:var(--soft)}
 footer a{color:#ccc}
 .flinks{margin-top:10px}
 .flinks a{margin-right:14px}
+.kitwrap{max-width:720px;margin:0 auto;min-height:420px}
 @media(max-width:820px){.split{grid-template-columns:1fr}.buybox{position:static}}
 @media(max-width:700px){.page-hero{padding:28px 0 40px}.page-hero h1{font-size:28px}.page-hero p{font-size:16px}.page-hero .btn{display:block;text-align:center;margin:0 0 12px}}

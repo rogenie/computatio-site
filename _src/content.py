@@ -189,6 +189,23 @@ PAGES = [
 </div></section>
 """ % CAL + CTA_BAND},
 
+# ---------------------------------------------------------------- Free guide (Kit form)
+{"path": "/free-guide/", "crumb": "Free guide", "og_image": "/assets/guide-cover.png",
+ "title": "Free Guide: 47 Write-Offs for the Self-Employed | Computatio",
+ "desc": "Get Computatio's free guide to 47 tax write-offs for self-employed owners, each explained in plain English with the IRS rule behind it.",
+ "hero": """<p class="eyebrow">Free guide</p>
+<h1>47 write-offs <span>for the self-employed.</span></h1>
+<p>The deductions freelancers, creators and owner-operators most often miss, each explained in plain English with the IRS rule behind it. Enter your email and we&rsquo;ll send it to you.</p>""",
+ "body": """<section><div class="wrap">
+<div class="kitwrap"><script async data-uid="5afb1c8fad" src="https://rogenie.kit.com/5afb1c8fad/index.js"></script></div>
+<p class="fine" style="text-align:center;margin-top:18px">You&rsquo;ll get a confirmation email first. Click the link in it to download the guide. Can&rsquo;t find it? Check your Promotions or Spam folder.</p>
+</div></section>
+<section class="alt"><div class="wrap prose">
+<h2>Rather not chase deductions yourself?</h2>
+<p>Write-offs are only as good as the books behind them. With <a href="/monthly-bookkeeping/">Monthly Books</a>, every transaction is categorized and reconciled each month, so deductions are captured as you go, not rebuilt in April. AI does the sorting, and a person reviews and signs off on every account.</p>
+<p><a class="btn" href="/monthly-bookkeeping/">See Monthly Books</a> &nbsp; <a class="btn line" href="%s" target="_blank" rel="noopener">Book a free call</a></p>
+</div></section>""" % CAL},
+
 # ---------------------------------------------------------------- Privacy
 {"path": "/privacy/", "crumb": "Privacy policy", "updated": UPDATED,
  "title": "Privacy Policy | Computatio",
@@ -212,7 +229,7 @@ PAGES = [
 <h2>Tax return information</h2>
 <p>We use the information you give us for your tax return only to prepare that return and to provide the services you asked for. We don&rsquo;t use or disclose it for any other purpose unless the law allows it or you give us written consent first.</p>
 <h2>Who we share it with</h2>
-<p>We don&rsquo;t sell or rent your personal information. We share it only with service providers that help us run Computatio, and only what they need: Stripe (payments), Calendly (scheduling), Formspree (our contact form), beehiiv (our newsletter, if you subscribe), Google Workspace (email and files), the bookkeeping software we work in for you, and the AI tools we use to help prepare your work. We may also share information when the law requires it.</p>
+<p>We don&rsquo;t sell or rent your personal information. We share it only with service providers that help us run Computatio, and only what they need: Stripe (payments), Calendly (scheduling), Formspree (our contact form), Kit (our newsletter and free guide, if you sign up), Google Workspace (email and files), the bookkeeping software we work in for you, and the AI tools we use to help prepare your work. We may also share information when the law requires it.</p>
 <h2>How we protect it</h2>
 <p>We limit access to client records to the people doing your work, use accounts protected by multi-factor authentication, and never ask for your banking passwords. No system is perfectly secure, and if a breach ever affects your information, we will tell you as the law requires.</p>
 <h2>How long we keep it</h2>
