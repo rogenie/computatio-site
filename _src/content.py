@@ -206,6 +206,21 @@ PAGES = [
 <p><a class="btn" href="/monthly-bookkeeping/">See Monthly Books</a> &nbsp; <a class="btn line" href="%s" target="_blank" rel="noopener">Book a free call</a></p>
 </div></section>""" % CAL},
 
+# ---------------------------------------------------------------- Guide thank-you (Kit redirect target)
+{"path": "/free-guide/thank-you/", "crumb": "Your free guide", "noindex": True,
+ "title": "Your Free Guide: 47 Write-Offs for the Self-Employed | Computatio",
+ "desc": "Download Computatio's 47 write-offs guide for the self-employed, 2026 edition.",
+ "hero": """<p class="eyebrow">You&rsquo;re confirmed</p>
+<h1>Here&rsquo;s your guide: <span>47 write-offs for the self-employed.</span></h1>
+<p>2026 edition, updated for the 2025 tax law. Save it, then use it as a checklist when you review your books and before you file.</p>
+<a class="btn" href="/assets/computatio-47-write-offs-2026.pdf" download>Download the guide (PDF)</a>""",
+ "body": """<section><div class="wrap prose">
+<h2>Want these deductions caught for you?</h2>
+<p>Most missed write-offs come from books that aren&rsquo;t kept up. With <a href="/monthly-bookkeeping/">Monthly Books</a> ($500 a month, month to month), every transaction is categorized and reconciled each month, you get a plain-English summary by the 15th, and a 30-minute call to go over your numbers. AI does the sorting; a person reviews and signs off on every account.</p>
+<p><a class="btn" href="/monthly-bookkeeping/">See Monthly Books</a> &nbsp; <a class="btn line" href="%s" target="_blank" rel="noopener">Book a free 20-minute call</a></p>
+<p class="fine">Prefer to learn to do it yourself? Our free <a href="https://bookbytellc.com/ai-accounting/">AI for Accounting guides</a> show you how.</p>
+</div></section>""" % CAL},
+
 # ---------------------------------------------------------------- Privacy
 {"path": "/privacy/", "crumb": "Privacy policy", "updated": UPDATED,
  "title": "Privacy Policy | Computatio",

@@ -81,6 +81,7 @@ def page(p):
                    "areaServed": {"@type": "Country", "name": "United States"},
                    "provider": {"@type": "ProfessionalService", "name": "Computatio", "url": SITE + "/"},
                    "offers": p["service"]["offers"]})
+    robots = '\n<meta name="robots" content="noindex">' if p.get("noindex") else ""
     og_img = f'<meta property="og:image" content="{SITE}{p["og_image"]}">' if p.get("og_image") else ""
     ldj = "\n".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld)
     return f"""<!DOCTYPE html>
@@ -90,7 +91,7 @@ def page(p):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{p['title']}</title>
 <meta name="description" content="{esc(p['desc'])}">
-<link rel="canonical" href="{url}">
+<link rel="canonical" href="{url}">{robots}
 <meta name="theme-color" content="#111111">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Computatio">
