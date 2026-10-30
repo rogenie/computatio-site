@@ -198,6 +198,7 @@ PAGES = [
 <p>The deductions freelancers, creators and owner-operators most often miss, each explained in plain English with the IRS rule behind it. Enter your email and we&rsquo;ll send it to you.</p>""",
  "body": """<section><div class="wrap">
 <div class="kitwrap"><script async data-uid="5afb1c8fad" src="https://rogenie.kit.com/5afb1c8fad/index.js"></script></div>
+<p class="fine" style="text-align:center;margin-top:18px">The signup form is provided by Kit; by signing up you agree to receive our emails, and you can unsubscribe anytime. See our <a href="/privacy/">privacy policy</a>.</p>
 <p class="fine" style="text-align:center;margin-top:18px">You&rsquo;ll get a confirmation email first. Click the link in it to download the guide. Can&rsquo;t find it? Check your Promotions or Spam folder.</p>
 </div></section>
 <section class="alt"><div class="wrap prose">
@@ -225,7 +226,7 @@ PAGES = [
 {"path": "/privacy/", "crumb": "Privacy policy", "updated": UPDATED,
  "title": "Privacy Policy | Computatio",
  "desc": "How Computatio collects, uses and protects your information, including the tax and financial records you share with us.",
- "hero": """<h1>Privacy policy</h1><p>Last updated October 24, 2026.</p>""",
+ "hero": """<h1>Privacy policy</h1><p>Effective October 29, 2026.</p>""",
  "body": """<section><div class="wrap prose">
 <p>This policy explains what information Computatio Inc. (&ldquo;Computatio,&rdquo; &ldquo;we&rdquo;) collects through computatio.io and in providing our services, how we use it and the choices you have.</p>
 <h2>Information we collect</h2>
@@ -243,6 +244,18 @@ PAGES = [
 </ul>
 <h2>Tax return information</h2>
 <p>We use the information you give us for your tax return only to prepare that return and to provide the services you asked for. We don&rsquo;t use or disclose it for any other purpose unless the law allows it or you give us written consent first.</p>
+<h2>Cookies, pixels and tracking</h2>
+<p>We keep tracking to a minimum. Specifically:</p>
+<ul>
+<li><b>No advertising pixels or tracking cookies.</b> We don&rsquo;t use Meta, Google, LinkedIn, TikTok or other ad pixels, session recording, or third-party chat widgets, and we don&rsquo;t set cookies to follow you around this site or across other sites.</li>
+<li><b>Visit counts:</b> GoatCounter, described above, sets no cookies and doesn&rsquo;t store your IP address.</li>
+<li><b>Fonts and files</b> are served from our own site, not from third parties.</li>
+<li><b>Our newsletter signup form</b> (on the free guide page) is provided by Kit. When the form loads and when you submit it, Kit receives your browser details and the information you enter, and may set a cookie to remember that you subscribed. See Kit&rsquo;s privacy policy at kit.com/privacy.</li>
+<li><b>When you click to pay or book</b>, you go to Stripe or Calendly, which set their own cookies under their own policies.</li>
+</ul>
+<p>We don&rsquo;t allow third parties to collect information about your online activities over time and across other websites through our site, other than as described above. If we ever add advertising or analytics tools that use cookies, we&rsquo;ll update this policy first and ask for your consent where the law requires it.</p>
+<h2>Do Not Track and Global Privacy Control</h2>
+<p>Because we don&rsquo;t track you across websites or sell or share your information for advertising, there is nothing for a Do Not Track or Global Privacy Control signal to turn off. If you send either signal, we treat it as a request not to sell or share your personal information, which we already don&rsquo;t do.</p>
 <h2>Who we share it with</h2>
 <p>We don&rsquo;t sell or rent your personal information. We share it only with service providers that help us run Computatio, and only what they need: Stripe (payments), Calendly (scheduling), Formspree (our contact form), Kit (our newsletter and free guide, if you sign up), Google Workspace (email and files), the bookkeeping software we work in for you, and the AI tools we use to help prepare your work. We may also share information when the law requires it.</p>
 <h2>How we protect it</h2>
@@ -251,9 +264,15 @@ PAGES = [
 <p>We keep client records for as long as we provide services to you and for the period afterward that tax and recordkeeping laws require, then delete them.</p>
 <h2>Your choices</h2>
 <p>You can ask to see, correct or delete the personal information we hold about you, subject to what we&rsquo;re required to keep by law. You can unsubscribe from our newsletter from any email. Depending on your state, you may have additional privacy rights, and we will honor them.</p>
+<h2>California residents</h2>
+<p>We don&rsquo;t sell or share personal information, as those terms are defined in the California Consumer Privacy Act, and we don&rsquo;t use it for cross-context behavioral advertising. To ask what we hold about you, or to correct or delete it, email rogenie@computatio.io. We won&rsquo;t treat you differently for making a request. California&rsquo;s &ldquo;Shine the Light&rdquo; law lets you ask whether we disclosed personal information to third parties for their direct marketing; we don&rsquo;t.</p>
+<h2>Children</h2>
+<p>Our site and services are for adults running businesses. We don&rsquo;t knowingly collect information from children under 16.</p>
+<h2>Changes to this policy</h2>
+<p>If we change this policy, we&rsquo;ll post the new version here with a new effective date. If a change is significant, we&rsquo;ll also tell clients and subscribers by email.</p>
 <h2>Contact</h2>
 <p>Questions or requests: email rogenie@computatio.io.</p>
-<p class="fine">We may update this policy. The date at the top shows the latest version.</p>
+
 </div></section>"""},
 
 # ---------------------------------------------------------------- Terms

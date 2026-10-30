@@ -101,9 +101,7 @@ def page(p):
 {og_img}
 <meta name="twitter:card" content="{"summary_large_image" if p.get("og_image") else "summary"}">
 <link rel="icon" href="/assets/logo.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Oswald:wght@500&display=swap">
+<link rel="stylesheet" href="/assets/fonts.css">
 <link rel="stylesheet" href="/assets/site.css">
 {ldj}
 </head>
