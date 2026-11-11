@@ -131,6 +131,10 @@ def main():
     os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
     open(os.path.join(ROOT, "assets", "site.css"), "w", encoding="utf-8").write(css.strip() + "\n" + EXTRA_CSS)
     for p in PAGES:
+        if p["path"] == "/404/":  # GitHub Pages serves /404.html for missing pages
+            html = page(p).replace('<link rel="canonical" href="https://computatio.io/404/">', '')
+            open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8").write(html)
+            continue
         d = os.path.join(ROOT, p["path"].strip("/"))
         os.makedirs(d, exist_ok=True)
         open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(page(p))

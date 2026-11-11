@@ -222,6 +222,21 @@ PAGES = [
 <p class="fine">Prefer to learn to do it yourself? Our free <a href="https://bookbytellc.com/ai-accounting/">AI for Accounting guides</a> show you how.</p>
 </div></section>""" % CAL},
 
+# ---------------------------------------------------------------- 404 (GitHub Pages serves /404.html)
+{"path": "/404/", "crumb": "Page not found", "noindex": True,
+ "title": "Page Not Found | Computatio",
+ "desc": "This page doesn't exist. Find Computatio's bookkeeping and tax services here.",
+ "hero": """<h1>That page <span>doesn&rsquo;t exist.</span></h1><p>It may have moved, or the link has a typo. Here&rsquo;s where to go instead.</p>""",
+ "body": """<section><div class="wrap prose">
+<ul>
+<li><a href="/monthly-bookkeeping/">Monthly Books</a>: $500 a month, books closed and explained every month</li>
+<li><a href="/tax-returns/">Tax returns</a>: fixed prices from $350</li>
+<li><a href="/books-cleanup/">Books cleanup</a>: catch up books that are behind</li>
+<li><a href="/free-guide/">Free guide: 47 write-offs for the self-employed</a></li>
+<li><a href="/">Computatio home</a></li>
+</ul>
+</div></section>"""},
+
 # ---------------------------------------------------------------- Privacy
 {"path": "/privacy/", "crumb": "Privacy policy", "updated": UPDATED,
  "title": "Privacy Policy | Computatio",
