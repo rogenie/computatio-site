@@ -1,0 +1,25 @@
+# Computatio
+
+> Computatio (Computatio Inc.) provides AI-assisted monthly bookkeeping for owner-led agencies and service businesses with 2 to 15 people, and fixed-price tax returns for self-employed owners. AI does the sorting and matching; a person reviews and signs off on every account. Based in San Diego, California, serving clients across the United States.
+
+## Services
+
+- [Monthly Books](https://computatio.io/monthly-bookkeeping/): $500 a month, month to month. Books categorized, reconciled and closed every month; a one-page plain-English summary by the 15th; a 30-minute monthly review call. Covers up to 2 bank accounts and 2 credit cards.
+- [Books cleanup](https://computatio.io/books-cleanup/): $500 to $1,500 one time, quoted before work starts, for books that are behind.
+- [Tax returns](https://computatio.io/tax-returns/): Simple Return $350, Self-Employed Return $600, Owner-Operator Return $900.
+
+## About
+
+- [About Computatio](https://computatio.io/about/)
+- [How we work](https://computatio.io/how-we-work/): where AI is used and where a person reviews the work.
+- [Founder: Rogenie Cordero](https://computatio.io/about/rogenie/)
+
+## Answers and guides
+
+- [Computatio Answers](https://computatio.io/answers/): straight answers to owners' bookkeeping questions.
+- [BookByte AI for Accounting guides](https://bookbytellc.com/ai-accounting/): free do-it-yourself guides from Computatio.
+
+## Contact
+
+- Book a free 20-minute call: https://calendly.com/computatio
+- Email: rogenie@computatio.io

@@ -1,0 +1,221 @@
+{
+ "cadence": "Tue and Thu, 6:21 AM Pacific",
+ "items": [
+  {
+   "date": "2026-11-19",
+   "slug": "how-to-catch-up-on-bookkeeping",
+   "question": "How do I catch up on months of bookkeeping before taxes?",
+   "angle": "Books months behind; owner dreads tax season. Steps: gather statements, reconcile oldest month first, categorize, separate personal, when to hire a cleanup. Cost and time ranges with sources.",
+   "service": "cleanup",
+   "outreach": true,
+   "status": "todo"
+  },
+  {
+   "date": "2026-11-24",
+   "slug": "is-my-agency-profitable",
+   "question": "How do I know if my agency is actually profitable?",
+   "angle": "Revenue looks fine but cash is tight. Gross margin vs. net profit, owner pay, reading a P&L, agency benchmark ranges only from a cited source.",
+   "service": "monthly",
+   "outreach": true,
+   "status": "todo"
+  },
+  {
+   "date": "2026-11-26",
+   "slug": "bank-balance-doesnt-match-quickbooks",
+   "question": "Why doesn't my bank balance match QuickBooks?",
+   "angle": "Common causes (uncleared items, duplicates from feeds, missing transactions, opening balance errors) and how a reconciliation finds each. Link official QuickBooks help.",
+   "service": "monthly",
+   "outreach": true,
+   "status": "todo"
+  },
+  {
+   "date": "2026-12-01",
+   "slug": "agency-cash-flow-slow-paying-clients",
+   "question": "How do I manage cash flow when clients pay late?",
+   "angle": "Agency with net-30/60 clients. 13-week cash view, invoicing terms, deposits/retainers, what to watch monthly.",
+   "service": "monthly",
+   "outreach": true,
+   "status": "todo"
+  },
+  {
+   "date": "2026-12-03",
+   "slug": "when-to-stop-doing-your-own-books",
+   "question": "When should a small business owner stop doing their own books?",
+   "angle": "Signs: behind 2+ months, mixing accounts, can't answer profit question, time cost vs. fee. Simple math of owner hour value.",
+   "service": "monthly",
+   "outreach": true,
+   "status": "todo"
+  },
+  {
+   "date": "2026-12-08",
+   "slug": "bookkeeper-vs-software-vs-ai-bookkeeping",
+   "question": "Bookkeeper, software or AI bookkeeping: which is right for a small agency?",
+   "angle": "Comparison table: cost, time, accuracy, who reviews. Software prices from vendor pages; bookkeeper wages from BLS.",
+   "service": "monthly",
+   "outreach": true,
+   "status": "todo"
+  },
+  {
+   "date": "2026-12-10",
+   "slug": "year-end-bookkeeping-checklist",
+   "question": "What should a small business do to close its books at year-end?",
+   "angle": "Dec checklist: reconcile all accounts, review AR/AP, contractor W-9s for 1099s, fixed assets, owner draws, inventory n/a. Dates from IRS.",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2026-12-15",
+   "slug": "how-much-does-a-bookkeeper-cost",
+   "question": "How much does a bookkeeper cost for a small business?",
+   "angle": "Hourly vs. monthly pricing; BLS wage data; what drives price (accounts, transactions, behind). Computatio's $500 shown as one example, labeled.",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2026-12-17",
+   "slug": "what-should-monthly-bookkeeping-include",
+   "question": "What should a monthly bookkeeping service include?",
+   "angle": "Deliverables to expect: categorization, reconciliation, close date, reports, review call; red flags; what's usually extra (cleanup, payroll, tax).",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2026-12-22",
+   "slug": "questions-to-ask-before-hiring-a-bookkeeper",
+   "question": "What should I ask before hiring a bookkeeper?",
+   "angle": "10 questions: software, close date, who reviews, access/security, pricing, what's excluded, communication.",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2026-12-24",
+   "slug": "is-ai-bookkeeping-safe-and-accurate",
+   "question": "Is AI bookkeeping safe and accurate?",
+   "angle": "Where AI is reliable vs. not; human review; data security questions to ask; IRS responsibility stays with taxpayer.",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2026-12-29",
+   "slug": "bookkeeping-for-marketing-agencies",
+   "question": "What does bookkeeping look like for a marketing or design agency?",
+   "angle": "Agency specifics: retainers vs. projects, contractor-heavy costs, pass-through ad spend, software subscriptions, revenue recognition basics.",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2027-01-05",
+   "slug": "1099s-for-contractors-2026",
+   "question": "Do I need to send 1099s to my contractors for 2026?",
+   "angle": "$2,000 threshold for payments made in 2026; W-9s; Jan 31 deadline; IRIS e-filing. All from IRS pages.",
+   "service": "tax",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2027-01-07",
+   "slug": "how-much-to-set-aside-for-taxes",
+   "question": "How much should a business owner set aside for taxes?",
+   "angle": "Self-employment tax 15.3%, income tax brackets, safe harbor for estimates, quarterly dates. IRS sources only.",
+   "service": "tax",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2027-01-12",
+   "slug": "prepare-books-for-tax-preparer",
+   "question": "How do I get my books ready for my tax preparer?",
+   "angle": "Checklist: reconciled accounts, P&L and balance sheet, 1099s, owner draws, mileage, assets bought.",
+   "service": "tax",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2027-01-14",
+   "slug": "track-profit-per-client",
+   "question": "How do I track profit per client or project?",
+   "angle": "Classes/projects in QuickBooks Online or tracking categories in Xero (vendor help pages), time vs. cost, a simple monthly view.",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2027-01-19",
+   "slug": "monthly-reports-small-business-owner",
+   "question": "Which financial reports should a small business owner read every month?",
+   "angle": "P&L, balance sheet, cash flow, AR aging: what each answers, 3 numbers to check in each.",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2027-01-21",
+   "slug": "quickbooks-online-vs-xero-small-agency",
+   "question": "QuickBooks Online or Xero: which is better for a small agency?",
+   "angle": "Pricing and plan limits from vendor pages, features agencies use, switching cost. No affiliate links.",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2027-01-26",
+   "slug": "cash-vs-accrual-small-business",
+   "question": "Cash or accrual accounting: which should a small business use?",
+   "angle": "IRS rules on methods (gross receipts test), what each shows, which owners need accrual.",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2027-01-28",
+   "slug": "s-corp-for-agency-owners",
+   "question": "When does an S-corp make sense for an agency owner?",
+   "angle": "Self-employment tax math with labeled example, reasonable salary, costs (payroll, state fees). IRS sources.",
+   "service": "tax",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2027-02-02",
+   "slug": "bookkeeper-vs-tax-preparer",
+   "question": "What's the difference between a bookkeeper and a tax preparer?",
+   "angle": "Roles, timing, what each delivers, why clean books lower tax-prep cost. Never use the CPA title for Computatio.",
+   "service": "tax",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2027-02-04",
+   "slug": "how-long-to-keep-business-records",
+   "question": "How long should a small business keep financial records?",
+   "angle": "IRS record-keeping periods (3, 6, 7 years, employment 4 years), digital records.",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2027-02-09",
+   "slug": "choosing-a-bookkeeper-in-san-diego",
+   "question": "How do I choose a bookkeeper in San Diego?",
+   "angle": "Local factors: California taxes and fees (FTB, CDTFA only if relevant), remote vs. local, questions to ask. Computatio mentioned once, labeled as ours.",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  },
+  {
+   "date": "2027-02-11",
+   "slug": "separate-agency-and-personal-finances",
+   "question": "How do I separate business and personal finances as an owner?",
+   "angle": "Separate accounts, owner draws vs. salary, reimbursing yourself, cleaning up mixed accounts.",
+   "service": "monthly",
+   "outreach": false,
+   "status": "todo"
+  }
+ ]
+}

@@ -21,17 +21,24 @@ def usd(n):
 PAGES = [
 
 # ---------------------------------------------------------------- Monthly Books
-{"path": "/monthly-bookkeeping/", "crumb": "Monthly Books",
- "title": "Monthly Bookkeeping for Self-Employed Owners, $500/Month | Computatio",
- "desc": "Monthly bookkeeping for freelancers, contractors and single-owner LLCs and S-corps: books closed every month, a plain-English summary by the 15th and a monthly call. $500 a month, month to month.",
- "service": {"name": "Monthly Books", "type": "Monthly bookkeeping",
+{"path": "/monthly-bookkeeping/", "updated": "2026-11-17", "show_updated": True, "crumb": "Monthly Books",
+ "title": "Monthly Bookkeeping for Agencies and Small Service Businesses, $500/Month | Computatio",
+ "desc": "Monthly bookkeeping for owner-led agencies and service businesses with 2 to 15 people: books closed every month, a plain-English summary by the 15th and a monthly call. $500 a month, month to month.",
+ "service": {"name": "Monthly Books", "type": "Monthly bookkeeping", "audience": "Owner-led agencies and service businesses with 2 to 15 people",
              "offers": {"@type": "Offer", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "500", "priceCurrency": "USD", "unitText": "month"}}},
  "hero": """<p class="eyebrow">Monthly Books &middot; $500 a month</p>
-<h1>Monthly bookkeeping for self-employed owners, <span>closed and explained every month.</span></h1>
+<h1>Monthly bookkeeping for agencies and service businesses, <span>closed and explained every month.</span></h1>
 <p>Your books stay current, your accounts are reconciled every month, and you get a one-page summary in plain English by the 15th. AI does the sorting. A person reviews and signs off on every account.</p>
 <a class="btn" href="%s">Start Monthly Books &mdash; $500/mo</a> &nbsp; <a class="btn ghost" href="%s" target="_blank" rel="noopener">Book a free call first</a>""" % (STRIPE_MONTHLY, CAL),
  "body": """<section><div class="wrap split">
 <div class="prose">
+<div class="summary">
+<p><b>Who it&rsquo;s for:</b> owner-led agencies and service businesses with 2 to 15 people, usually on QuickBooks Online or Xero, with no in-house bookkeeper. Self-employed owners and single-owner LLCs and S-corps are welcome too.</p>
+<p><b>The problem it solves:</b> books that fall behind, so you don&rsquo;t know whether you&rsquo;re profitable and scramble at tax time.</p>
+<p><b>The outcome:</b> books closed and reconciled every month, a one-page plain-English summary by the 15th, and a 30-minute review call.</p>
+<p><b>Price:</b> $500 a month, month to month, covering up to 2 bank accounts and 2 credit cards. Books more than 2 months behind start with a cleanup, quoted separately ($500&ndash;$1,500 one time).</p>
+<p><b>How to start:</b> start online below, or book a free 20-minute call first.</p>
+</div>
 <h2>The problem with doing your own books</h2>
 <p>Most owners don&rsquo;t fall behind because bookkeeping is hard. They fall behind because it&rsquo;s never urgent. One busy month becomes three, receipts pile up in your camera roll, and personal and business charges blur together on the same card.</p>
 <p>Then tax time arrives. You either spend a weekend rebuilding the year, or you pay someone to clean it up, and you still don&rsquo;t know whether you made money last quarter or how much to set aside for taxes.</p>
@@ -52,9 +59,11 @@ PAGES = [
 <li><b>You get your report and call.</b> Closed books and your one-page summary by the 15th, then your monthly call.</li>
 </ol>
 <h2>Who it&rsquo;s for</h2>
-<p>Freelancers, consultants, creators, contractors and single-owner LLCs and S-corps with up to 150 transactions and 3 bank or card accounts a month. It fits best when your books are no more than 2 months behind. If you&rsquo;re further behind, we start with a <a href="/books-cleanup/">books cleanup</a> and roll straight into Monthly Books.</p>
+<p>Owner-led agencies and service businesses (marketing, design, web, consulting, architecture and similar) with 2 to 15 people, plus freelancers and single-owner LLCs and S-corps. Monthly Books covers up to 2 bank accounts and 2 credit cards. It fits best when your books are no more than 2 months behind. If you&rsquo;re further behind, we start with a <a href="/books-cleanup/">books cleanup</a> and roll straight into Monthly Books.</p>
 <h2>What&rsquo;s not included</h2>
-<p>Monthly Books doesn&rsquo;t include catch-up work for past months, tax returns, payroll or sales tax filings. Tax returns are a separate fixed price; see <a href="/tax-returns/">tax returns</a>. If you need more than 150 transactions or 3 accounts a month, we quote it on a call before you start.</p>
+<p>Monthly Books doesn&rsquo;t include catch-up work for past months, tax returns, payroll or sales tax filings. Tax returns are a separate fixed price; see <a href="/tax-returns/">tax returns</a>. If you need more than 2 bank accounts and 2 credit cards, we quote it on a call before you start.</p>
+<h2>Who it&rsquo;s not for</h2>
+<p>Businesses that hold inventory or sell mainly through e-commerce, payroll-heavy companies, groups with several legal entities, and firms that already have an in-house finance person. We&rsquo;ll tell you on a call if you&rsquo;re not a fit.</p>
 <h2>Questions</h2>
 <dl class="faq">
 <dt>Is there a contract?</dt><dd>No. Monthly Books is month to month. Cancel any time with 30 days&rsquo; notice.</dd>
@@ -72,7 +81,7 @@ PAGES = [
 <li>Plain-English summary by the 15th</li>
 <li>30-minute monthly review call</li>
 <li>Quarterly tax estimate check</li>
-<li>Up to 150 transactions and 3 accounts a month</li>
+<li>Up to 2 bank accounts and 2 credit cards</li>
 <li>Month to month; cancel with 30 days&rsquo; notice</li>
 </ul>
 <a class="btn" href="%s">Start Monthly Books &mdash; $500/mo</a>
@@ -83,7 +92,7 @@ PAGES = [
 """ % (STRIPE_MONTHLY, CAL) + CTA_BAND},
 
 # ---------------------------------------------------------------- Tax returns
-{"path": "/tax-returns/", "crumb": "Tax returns",
+{"path": "/tax-returns/", "updated": "2026-11-17", "show_updated": True, "crumb": "Tax returns",
  "title": "Tax Preparation for Self-Employed and Freelancers, from $350 | Computatio",
  "desc": "Fixed-price tax returns for freelancers, sole proprietors and single-owner LLCs and S-corps across the US: $350, $600 or $900, prepared with AI and reviewed and signed off by a person.",
  "service": {"name": "Tax returns", "type": "Tax preparation",
@@ -136,7 +145,7 @@ PAGES = [
 """ % (STRIPE_SIMPLE, STRIPE_SELF, CAL) + CTA_BAND},
 
 # ---------------------------------------------------------------- Cleanup
-{"path": "/books-cleanup/", "crumb": "Books cleanup",
+{"path": "/books-cleanup/", "updated": "2026-11-17", "show_updated": True, "crumb": "Books cleanup",
  "title": "Bookkeeping Cleanup and Catch-Up for Small Businesses | Computatio",
  "desc": "Behind on your books? Computatio catches up messy or missing bookkeeping for self-employed owners: past transactions categorized and every account reconciled. $500 to $1,500, quoted up front.",
  "service": {"name": "Books Cleanup", "type": "Catch-up bookkeeping",
@@ -188,6 +197,99 @@ PAGES = [
 </aside>
 </div></section>
 """ % CAL + CTA_BAND},
+
+# ---------------------------------------------------------------- About
+{"path": "/about/", "crumb": "About", "updated": "2026-11-17", "show_updated": True,
+ "title": "About Computatio: AI-Assisted Bookkeeping, Reviewed by a Person | Computatio",
+ "desc": "Computatio is a San Diego bookkeeping and tax service for owner-led businesses and self-employed owners. AI does the sorting; a person reviews and signs off on every account.",
+ "hero": """<p class="eyebrow">About</p>
+<h1>Bookkeeping that&rsquo;s fast because of AI, <span>and right because a person checks it.</span></h1>
+<p>Computatio Inc. is a bookkeeping and tax service based in San Diego, California, serving clients across the United States.</p>""",
+ "body": """<section><div class="wrap prose">
+<div class="summary">
+<p><b>What we do:</b> monthly bookkeeping (Monthly Books, $500 a month), books cleanup ($500&ndash;$1,500 one time) and fixed-price tax returns ($350, $600 or $900).</p>
+<p><b>Who we serve:</b> owner-led agencies and service businesses with 2 to 15 people, and self-employed owners, freelancers and single-owner LLCs and S-corps.</p>
+<p><b>How:</b> AI agents sort, match and draft. A person reviews and signs off on every account and every return.</p>
+<p><b>Where:</b> San Diego, California. We work remotely with clients anywhere in the US.</p>
+</div>
+<h2>Why Computatio exists</h2>
+<p>Most small businesses don&rsquo;t need a finance department. They need books that are current, reconciled and explained, so they know whether they&rsquo;re making money and what they&rsquo;ll owe in taxes. Traditional bookkeeping is slow and priced by the hour. Software alone leaves the owner doing the work at night.</p>
+<p>Computatio uses AI for the repetitive parts (categorizing, matching, drafting reports) and puts a person on the parts that need judgment: reviewing, reconciling, asking the right questions and signing off. That keeps prices fixed and the work accurate.</p>
+<h2>What makes us different</h2>
+<ul>
+<li><b>Fixed prices, published on the site.</b> No hourly billing.</li>
+<li><b>Closed books by the 15th,</b> with a one-page summary in plain English and a monthly call.</li>
+<li><b>Open about AI.</b> We tell you where AI is used and where a person checks the work. See <a href="/how-we-work/">how we work</a>.</li>
+<li><b>Free guides.</b> If you&rsquo;d rather do it yourself, our <a href="https://bookbytellc.com/ai-accounting/">AI for Accounting guides</a> show you how, step by step.</li>
+</ul>
+<h2>Founder</h2>
+<p>Computatio was founded by <a href="/about/rogenie/">Rogenie Cordero</a>, who has 20 years of experience in bookkeeping, tax and finance. Computatio Inc. is 100% woman-owned.</p>
+<h2>Contact</h2>
+<p>Email rogenie@computatio.io or <a href="https://calendly.com/computatio" target="_blank" rel="noopener">book a free 20-minute call</a>.<br>Mailing address: Computatio Inc., 13223 Black Mountain Rd, Ste 1 #728, San Diego, CA 92129.</p>
+</div></section>"""},
+
+# ---------------------------------------------------------------- Founder
+{"path": "/about/rogenie/", "crumb": "Rogenie Cordero", "crumbs": [("Computatio", "/"), ("About", "/about/"), ("Rogenie Cordero", "/about/rogenie/")],
+ "updated": "2026-11-17",
+ "title": "Rogenie Cordero, Founder of Computatio | Computatio",
+ "desc": "Rogenie Cordero founded Computatio, a San Diego bookkeeping and tax service. 20 years in bookkeeping, tax and finance; dual degree with a computer science minor.",
+ "extra_ld": [{"@context": "https://schema.org", "@type": "Person", "@id": "https://computatio.io/about/rogenie/#person",
+               "name": "Rogenie Cordero", "jobTitle": "Founder", "worksFor": {"@id": "https://computatio.io/#org"},
+               "url": "https://computatio.io/about/rogenie/", "sameAs": ["https://www.linkedin.com/in/rogenie"],
+               "knowsAbout": ["Bookkeeping", "Small business tax preparation", "Financial reporting", "AI for bookkeeping"],
+               "address": {"@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "addressCountry": "US"}}],
+ "hero": """<p class="eyebrow">Founder</p>
+<h1>Rogenie Cordero</h1>
+<p>Founder of Computatio. 20 years in bookkeeping, tax and finance.</p>""",
+ "body": """<section><div class="wrap prose">
+<p>Rogenie Cordero founded Computatio to give small-business owners accurate, current books without hourly bills or late-night spreadsheet work.</p>
+<ul>
+<li>20 years of experience in bookkeeping, tax and finance</li>
+<li>Dual degree, with a minor in computer science</li>
+<li>More than 20 years building businesses across industries, both for-profit and nonprofit</li>
+<li>Prepares tax returns and keeps her federal and California tax preparer registrations current</li>
+<li>Based in San Diego, California</li>
+</ul>
+<p>At Computatio, she designs the AI workflows and reviews client work. The same workflows are taught, step by step, in the free <a href="https://bookbytellc.com/ai-accounting/">AI for Accounting guides</a> on BookByte.</p>
+<p><a href="https://www.linkedin.com/in/rogenie" target="_blank" rel="noopener">Rogenie on LinkedIn</a> &middot; <a href="/about/">About Computatio</a></p>
+</div></section>"""},
+
+# ---------------------------------------------------------------- How we work
+{"path": "/how-we-work/", "crumb": "How we work", "updated": "2026-11-17", "show_updated": True,
+ "title": "How Computatio Works: AI Bookkeeping With Human Review | Computatio",
+ "desc": "Where Computatio uses AI, where a person reviews the work, and how client data is protected. Monthly bookkeeping closed by the 15th.",
+ "hero": """<p class="eyebrow">How we work</p>
+<h1>AI does the sorting. <span>A person signs off.</span></h1>
+<p>Here&rsquo;s exactly where AI is used in your books, where a person checks it, and how your information is protected.</p>""",
+ "body": """<section><div class="wrap prose">
+<h2>Each month, step by step</h2>
+<table class="cmp"><tr><th>Step</th><th>Who does it</th><th>What happens</th></tr>
+<tr><td>1. Transactions come in</td><td>Your bank feeds</td><td>Read-only bank and card feeds bring in last month&rsquo;s transactions, or you upload statements.</td></tr>
+<tr><td>2. First pass</td><td>AI</td><td>Each transaction is categorized and matched to receipts and invoices. Anything unclear, such as a charge that could be personal, is flagged.</td></tr>
+<tr><td>3. Review</td><td>A person</td><td>We check every flagged item and ask you about the ones only you can answer.</td></tr>
+<tr><td>4. Reconcile</td><td>A person, with AI help</td><td>Every bank and card account is reconciled to its statement, so totals are right, not just labels.</td></tr>
+<tr><td>5. Close and report</td><td>A person signs off</td><td>Profit and loss, balance sheet and cash summary, plus a one-page plain-English summary, by the 15th.</td></tr>
+<tr><td>6. Monthly call</td><td>You and us</td><td>30 minutes to go over your numbers and answer questions.</td></tr>
+</table>
+<h2>What AI never does on its own</h2>
+<ul>
+<li>Sign off on your books or a tax return</li>
+<li>Guess about an item it can&rsquo;t confirm: those go to a person, then to you</li>
+<li>Send anything to you or the IRS without review</li>
+</ul>
+<h2>How your information is protected</h2>
+<ul>
+<li>We never ask for your banking passwords. Bank access is read-only.</li>
+<li>Access to your records is limited to the people doing your work, on accounts protected by multi-factor authentication.</li>
+<li>We don&rsquo;t sell your information, and tax return information is used only to prepare your return. See our <a href="/privacy/">privacy policy</a>.</li>
+</ul>
+<h2>Questions</h2>
+<dl class="faq">
+<dt>Is my bookkeeping done entirely by AI?</dt><dd>No. AI does the first pass on categorizing and matching. A person reviews flagged items, reconciles every account and signs off before your report goes out.</dd>
+<dt>Which software do you work in?</dt><dd>QuickBooks Online or Xero. If you don&rsquo;t have either yet, we&rsquo;ll recommend one on your first call.</dd>
+<dt>When do I get my monthly report?</dt><dd>By the 15th of each month, for the month before.</dd>
+</dl>
+</div></section>"""},
 
 # ---------------------------------------------------------------- Free guide (Kit form)
 {"path": "/free-guide/", "crumb": "Free guide", "og_image": "/assets/guide-cover.png",
