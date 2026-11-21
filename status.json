@@ -1,11 +1,13 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-21",
  "cadence": "Tue and Thu, 4:37 AM Pacific",
  "items": [
   {
    "date": "2026-11-19",
-   "status": "todo",
-   "service": "cleanup"
+   "status": "written",
+   "service": "cleanup",
+   "title": "How do I catch up on months of bookkeeping before taxes?",
+   "url": "https://computatio.io/answers/how-to-catch-up-on-bookkeeping/"
   },
   {
    "date": "2026-11-24",
@@ -123,5 +125,16 @@
    "service": "monthly"
   }
  ],
- "runs": []
+ "runs": [
+  {
+   "date": "2026-11-19",
+   "at": "2026-11-21T14:13:59-08:00",
+   "result": "published",
+   "slug": "how-to-catch-up-on-bookkeeping",
+   "facts_checked": 9,
+   "removed": 2,
+   "live_verified": false,
+   "note": "Catch-up: 2026-11-19 run was missed, published 2026-11-21. Removed market cost/time ranges (no cited source) and specific 2027 due dates (not confirmed this run)."
+  }
+ ]
 }
