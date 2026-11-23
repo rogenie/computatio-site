@@ -94,20 +94,19 @@ PAGES = [
 # ---------------------------------------------------------------- Tax returns
 {"path": "/tax-returns/", "updated": "2026-11-17", "show_updated": True, "crumb": "Tax returns",
  "title": "Tax Preparation for Self-Employed and Freelancers, from $350 | Computatio",
- "desc": "Fixed-price tax returns for freelancers, sole proprietors and single-owner LLCs and S-corps across the US: $350, $600 or $900, prepared with AI and reviewed and signed off by a person.",
+ "desc": "Fixed-price tax returns for freelancers, sole proprietors and single-member LLCs across the US: $350 or $600, prepared with AI and reviewed and signed off by a person.",
  "service": {"name": "Tax returns", "type": "Tax preparation",
-             "offers": [dict(usd(350), name="Simple Return"), dict(usd(600), name="Self-Employed Return"), dict(usd(900), name="Owner-Operator Return")]},
+             "offers": [dict(usd(350), name="Simple Return"), dict(usd(600), name="Self-Employed Return")]},
  "hero": """<p class="eyebrow">Tax returns &middot; fixed prices from $350</p>
 <h1>Tax returns for the self-employed, <span>at a price you know up front.</span></h1>
 <p>Pick the return that matches your situation. AI drafts it from your documents, a person reviews and signs off on it, and you approve it before anything is filed.</p>
 <a class="btn" href="#choose">Choose your return</a> &nbsp; <a class="btn ghost" href="%s" target="_blank" rel="noopener">Not sure? Book a free call</a>""" % CAL,
  "body": """<section class="alt" id="choose"><div class="wrap">
-<h2>Three returns, three fixed prices</h2>
+<h2>Two returns, two fixed prices</h2>
 <p class="sub">If your return turns out to need more than the plan you paid for, we tell you before any work starts and quote the difference, or you can cancel for a full refund.</p>
 <div class="grid">
 <div class="card"><h3>Simple Return</h3><div class="price">$350<small> / return</small></div><p>W-2 plus light side income.</p><ul><li>Federal return, one state</li><li>Deduction review</li><li>Reviewed and signed off by a person</li></ul><a class="btn" href="%s">Start Simple Return &mdash; $350</a></div>
 <div class="card"><h3>Self-Employed Return</h3><div class="price">$600<small> / return</small></div><p>Schedule C freelancers and sole proprietors, including single-member LLCs taxed as sole proprietors.</p><ul><li>Business income and expenses</li><li>Quarterly estimate check</li><li>Reviewed and signed off by a person</li></ul><a class="btn" href="%s">Start Self-Employed Return &mdash; $600</a></div>
-<div class="card"><h3>Owner-Operator Return</h3><div class="price">$900<small> / return</small></div><p>LLC or S-corp owners.</p><ul><li>Business and personal returns coordinated</li><li>Owner pay and tax planning check</li><li>Reviewed and signed off by a person</li></ul><a class="btn line" href="%s" target="_blank" rel="noopener">Book a call for a quote</a></div>
 </div>
 </div></section>
 <section><div class="wrap prose">
@@ -116,7 +115,7 @@ PAGES = [
 <tr><th>Your situation</th><th>Return</th></tr>
 <tr><td>A W-2 job, maybe a little side income, one state</td><td>Simple Return, $350</td></tr>
 <tr><td>You freelance or run a business in your own name and get 1099s or invoice clients</td><td>Self-Employed Return, $600</td></tr>
-<tr><td>You own an LLC or corporation taxed as an S-corp and pay yourself a salary from it</td><td>Owner-Operator Return, $900, quoted on a call</td></tr>
+<tr><td>You own an LLC or corporation taxed as an S-corp and pay yourself a salary from it</td><td>Not a fixed price: <a href="%s" target="_blank" rel="noopener">book a free call</a> for a quote</td></tr>
 </table></div>
 <h2>What to have ready</h2>
 <ul>
@@ -207,7 +206,7 @@ PAGES = [
 <p>Computatio Inc. is a bookkeeping and tax service based in San Diego, California, serving clients across the United States.</p>""",
  "body": """<section><div class="wrap prose">
 <div class="summary">
-<p><b>What we do:</b> monthly bookkeeping (Monthly Books, $500 a month), books cleanup ($500&ndash;$1,500 one time) and fixed-price tax returns ($350, $600 or $900).</p>
+<p><b>What we do:</b> monthly bookkeeping (Monthly Books, $500 a month), books cleanup ($500&ndash;$1,500 one time) and fixed-price tax returns ($350 or $600).</p>
 <p><b>Who we serve:</b> owner-led agencies and service businesses with 2 to 15 people, and self-employed owners, freelancers and single-owner LLCs and S-corps.</p>
 <p><b>How:</b> AI agents sort, match and draft. A person reviews and signs off on every account and every return.</p>
 <p><b>Where:</b> San Diego, California. We work remotely with clients anywhere in the US.</p>
@@ -410,7 +409,7 @@ PAGES = [
 <p>We provide bookkeeping (Monthly Books and Books Cleanup) and tax return preparation for self-employed owners. Each service&rsquo;s scope is described on its page and at checkout. We use AI software to help with the work, and a person reviews and signs off on every account and return.</p>
 <h2>Prices and payment</h2>
 <ul>
-<li>Fixed-price returns are paid at checkout. Owner-Operator returns and Books Cleanup are quoted before work starts.</li>
+<li>Fixed-price returns are paid at checkout. Business returns for LLCs and S-corps, and Books Cleanup, are quoted before work starts.</li>
 <li>Monthly Books is billed monthly in advance through Stripe until you cancel.</li>
 <li>If your return or books turn out to need more than the service you paid for, we tell you before any work starts and quote the difference. You can accept the new price or cancel for a full refund.</li>
 </ul>

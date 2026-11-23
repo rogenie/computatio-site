@@ -52,7 +52,7 @@ Link at least two other pages inside section text: a Computatio service page, an
 - Never guarantee outcomes, refunds, audit results or savings. No hype words ("secret", "hack", "guaranteed").
 - Never give advice that depends on a reader's specific situation as if it were general; say when to ask a professional.
 - Never add tracking pixels, chat widgets, third-party scripts or outside fonts. GoatCounter only.
-- Never change prices: Monthly Books $500/month (up to 2 bank accounts and 2 credit cards); Books Cleanup $500–$1,500 one time; returns $350 / $600 / $900.
+- Never change prices: Monthly Books $500/month (up to 2 bank accounts and 2 credit cards); Books Cleanup $500–$1,500 one time; returns $350 / $600 (LLC and S-corp business returns are quoted, never priced).
 - Never put Rogenie's name in the body. The build adds the byline ("By Computatio, reviewed by Rogenie Cordero, founder").
 - Never edit pages outside `_src/answers.py`, `_src/answers_calendar.json`, `_src/answers_runs.json` and the files the build writes.
 

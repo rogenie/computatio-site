@@ -113,7 +113,6 @@ ORG = {
         {"@type": "Offer", "name": "Monthly Books", "url": SITE + "/monthly-bookkeeping/", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "500", "priceCurrency": "USD", "unitText": "month"}},
         {"@type": "Offer", "name": "Simple Return", "url": SITE + "/tax-returns/", "price": "350", "priceCurrency": "USD"},
         {"@type": "Offer", "name": "Self-Employed Return", "url": SITE + "/tax-returns/", "price": "600", "priceCurrency": "USD"},
-        {"@type": "Offer", "name": "Owner-Operator Return", "url": SITE + "/tax-returns/", "price": "900", "priceCurrency": "USD"},
         {"@type": "Offer", "name": "Books Cleanup", "url": SITE + "/books-cleanup/", "priceSpecification": {"@type": "PriceSpecification", "minPrice": "500", "maxPrice": "1500", "priceCurrency": "USD"}},
     ],
 }
@@ -210,7 +209,7 @@ def datefmt(d):
 SERVICE_CTA = {
     "monthly": ("Monthly Books", "/monthly-bookkeeping/", "Books closed and reconciled every month, a plain-English summary by the 15th and a 30-minute review call, for $500 a month."),
     "cleanup": ("Books cleanup", "/books-cleanup/", "We catch up books that are behind for a fixed price you agree to first ($500 to $1,500), then you can roll into Monthly Books."),
-    "tax": ("Tax returns", "/tax-returns/", "Fixed-price returns for the self-employed: $350, $600 or $900, prepared with AI and reviewed and signed off by a person."),
+    "tax": ("Tax returns", "/tax-returns/", "Fixed-price returns for the self-employed: $350 or $600, prepared with AI and reviewed and signed off by a person."),
 }
 
 
