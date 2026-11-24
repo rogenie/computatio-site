@@ -8,5 +8,15 @@
   "removed": 2,
   "live_verified": false,
   "note": "Catch-up: 2026-11-19 run was missed, published 2026-11-21. Removed market cost/time ranges (no cited source) and specific 2027 due dates (not confirmed this run)."
+ },
+ {
+  "date": "2026-11-24",
+  "at": "2026-11-24T04:40:26-08:00",
+  "result": "published",
+  "slug": "is-my-agency-profitable",
+  "facts_checked": 11,
+  "removed": 3,
+  "live_verified": false,
+  "note": "On schedule. Removed agency benchmark ranges (no official source; SBA ratio guide has none for services), a claim that owner draws aren't deductible (not stated on the IRS page opened), and an IRS same-method-every-year claim sourced only via Intuit."
  }
 ]
