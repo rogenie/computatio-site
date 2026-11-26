@@ -140,4 +140,60 @@ ANSWERS = [
   ("Intuit: Choose between cash and accrual accounting methods in QuickBooks Online", "https://quickbooks.intuit.com/learn-support/en-us/help-article/product-preferences/choose-cash-accrual-accounting-methods-reports/L64yocn6B_US_en_US"),
  ],
 },
+{
+ "slug": "bank-balance-doesnt-match-quickbooks",
+ "published": "2026-11-26", "updated": "2026-11-26",
+ "question": "Why doesn't my bank balance match QuickBooks?",
+ "title": "Why Your Bank Balance Doesn't Match QuickBooks | Computatio",
+ "desc": "Usually timing, duplicates from the bank feed, missing transactions or a wrong opening balance. A monthly reconciliation to $0.00 finds which one it is.",
+ "answer": "Your bank balance usually doesn't match QuickBooks Online because of timing (checks and deposits that haven't cleared), duplicate transactions from the bank feed, transactions that never made it into the books, or a wrong opening or beginning balance. Reconciling each account to its bank statement every month, until the difference in QuickBooks Online is $0.00, shows you which of these is causing the gap.",
+ "sections": [
+  ("Is a mismatch always a mistake?",
+   "<p>No. Your bank shows what has cleared the bank today. QuickBooks Online shows everything you've recorded, including checks you wrote that haven't been cashed and deposits that haven't posted yet. Those timing gaps are normal and go away once the items clear.</p>"
+   "<p>A mismatch is a problem when it doesn't go away: the same gap month after month, or a gap that grows. That points to something wrong in the books, and the next sections cover the usual causes.</p>"),
+  ("What are the common causes, and how do I spot each one?",
+   "<p>Most gaps come from one of five causes. Each one leaves a different trail, so check them in this order.</p>"
+   "<table><thead><tr><th>Cause</th><th>What it looks like</th><th>How to find it</th></tr></thead><tbody>"
+   "<tr><td>Timing</td><td>Books show checks or deposits the bank doesn't yet.</td><td>Compare uncleared items in the register with the bank's activity after the statement date.</td></tr>"
+   "<tr><td>Duplicate transactions</td><td>QuickBooks Online balance is off by the exact amount of one transaction.</td><td>Search the register for the same amount on nearby dates; check whether it's on the bank statement once or twice.</td></tr>"
+   "<tr><td>Missing transactions</td><td>The bank has a fee, transfer or payment the books don't.</td><td>Tick through the statement line by line during reconciliation.</td></tr>"
+   "<tr><td>Wrong opening balance</td><td>The very first reconciliation never balances.</td><td>Compare the opening balance entry with your bank balance for that same day.</td></tr>"
+   "<tr><td>Changed past reconciliations</td><td>The beginning balance doesn't match last month's ending balance.</td><td>Open the Reconcile Discrepancy Report in QuickBooks Online.</td></tr>"
+   "</tbody></table>"),
+  ("Why does the bank feed create duplicates?",
+   "<p>Intuit says duplicates in QuickBooks Online can happen if you reconnect an account, import a file that overlaps with your bank feed, add a downloaded transaction instead of matching it, or record the same sale in two different ways. A bill and an expense entered for the same purchase, or the same account connected twice, cause it too.</p>"
+   "<p>First check your bank statement: if a charge appears there twice, it really happened twice. If it's only once on the statement, exclude the extra copy while it's still in the For review tab. Intuit warns that if you delete a downloaded transaction instead, QuickBooks Online will download it again, and that disconnecting and reconnecting an account downloads past transactions again, which creates more duplicates. If one copy is already reconciled, keep that one.</p>"),
+  ("How does a reconciliation find the gap?",
+   "<p>Reconciling means checking your books against the bank statement for the same period. In QuickBooks Online, you enter the statement's ending balance and ending date, then check off the matching transactions. Intuit says that when the difference reaches $0.00, your account is balanced. Make sure all transactions for the statement period are added and categorized first, and Intuit recommends doing this every month after you get your statement.</p>"
+   "<p>If the difference won't reach $0.00, first check that you typed the ending balance and date correctly. Avoid letting QuickBooks Online create an adjusting entry to force it: Intuit says it's usually best to resolve the difference instead, and to talk to your accountant before adjusting. If your books are several months behind, our answer on <a href=\"/answers/how-to-catch-up-on-bookkeeping/\">how to catch up on months of bookkeeping</a> covers reconciling oldest month first. To learn the do-it-yourself method, BookByte's guide on <a href=\"https://bookbytellc.com/bookkeeping/do-your-own-bookkeeping/\">how to do your own bookkeeping when you're self-employed</a> walks through it.</p>"),
+  ("What if the beginning balance is wrong?",
+   "<p>The beginning balance on a reconciliation should match the ending balance of your last reconciliation. Intuit says QuickBooks Online won't let you continue until you account for the difference. The usual causes Intuit lists: an incorrect opening balance when the account was set up, or a reconciled transaction that was later edited, deleted, voided, moved or unreconciled.</p>"
+   "<ul><li><strong>First reconciliation won't balance:</strong> Intuit says this is often an incorrect opening balance. QuickBooks Online sets it from the real-world account balance on the day you started tracking, so compare it with your bank's balance for that day and correct it.</li>"
+   "<li><strong>Later reconciliations:</strong> open the Reconcile Discrepancy Report and work through each changed transaction. Check the audit log for deleted or voided transactions.</li></ul>"
+   "<p>Intuit's advice is to fix only changes made in error and to ask your accountant if you're unsure. Undoing a past reconciliation affects every month after it.</p>"),
+  ("Example: a 5-person web agency off by $2,150",
+   "<p>These are made-up numbers to show how the search works, not a real client.</p>"
+   "<ul><li>On October 31, the bank statement ending balance is $18,400, but QuickBooks Online shows $16,250 for the same account: a $2,150 gap (made-up numbers).</li>"
+   "<li>A $900 check to a freelancer, written October 29, is in the books but hasn't been cashed yet, so the bank hasn't subtracted it. That's timing, not an error, and explains $900 of the gap (made-up numbers).</li>"
+   "<li>The books are still $1,250 lower than the bank. During the reconciliation, the owner finds a $1,250 client deposit on October 15 that was never added from the bank feed (made-up numbers).</li>"
+   "<li>After adding it, QuickBooks Online shows $17,500. Add back the $900 uncleared check and you get $18,400, matching the statement, and the reconciliation difference is $0.00 (made-up numbers).</li></ul>"
+   "<p>The lesson: account for timing items first, then look at what's left. A leftover gap that equals one exact amount usually points to a single missing or duplicated transaction.</p>"),
+ ],
+ "help": "<p>It's time to get help when a reconciliation won't reach $0.00 after an hour of searching, when the beginning balance is off and you don't know which past change caused it, or when you haven't reconciled in months. At that point every report you read may be wrong. <a href=\"/monthly-bookkeeping/\">Computatio's Monthly Books</a> reconciles each bank and credit card account every month, and a person reviews and signs off on every account.</p>",
+ "service": "monthly",
+ "faq": [
+  ("Should my QuickBooks balance ever match my bank balance exactly?", "Only when nothing is in transit. On the statement date, after reconciling, the cleared balance in QuickBooks Online should equal the statement's ending balance; uncleared checks and deposits explain any remaining difference."),
+  ("Is it OK to let QuickBooks make an adjustment to balance?", "It's usually better to find the cause. Intuit says it's usually best to resolve the difference and to talk to your accountant before creating an adjusting entry."),
+  ("Should I delete duplicate transactions from the bank feed?", "Exclude them while they're in the For review tab instead. Intuit says a deleted downloaded transaction will download again."),
+  ("How often should I reconcile?", "Every month, for every bank and credit card account, after the statement arrives. Small gaps are much easier to find one month at a time."),
+  ("Can I use my personal account for some business expenses?", "The IRS says you should keep your business account separate from your personal checking account. Mixing them makes every reconciliation harder."),
+ ],
+ "sources": [
+  ("Intuit: Reconcile an account in QuickBooks Online", "https://quickbooks.intuit.com/learn-support/en-us/help-article/statement-reconciliation/reconcile-account-quickbooks-online/L3XzsllsK_US_en_US"),
+  ("Intuit: Fix duplicate transactions in QuickBooks Online bank feeds", "https://quickbooks.intuit.com/learn-support/en-us/help-article/duplicate-transactions/fix-duplicate-transactions-quickbooks-online-bank-feeds/L1fjxl88f_US_en_US"),
+  ("Intuit: Fix beginning balance issues when reconciling in QuickBooks Online", "https://quickbooks.intuit.com/learn-support/en-us/help-article/statement-reconciliation/fix-issues-accounts-reconciled-past-quickbooks/L8lx6PQQ5_US_en_US"),
+  ("Intuit: Fix issues the first time you reconcile an account in QuickBooks Online", "https://quickbooks.intuit.com/learn-support/en-us/help-article/banking/fix-issues-first-time-reconcile-account-quickbooks/L1aksm3QU_US_en_US"),
+  ("IRS Publication 583, Starting a Business and Keeping Records", "https://www.irs.gov/publications/p583"),
+ ],
+},
 ]
